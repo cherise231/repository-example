@@ -1,0 +1,50 @@
+
+body {
+    background-color: #4286f4;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+p {
+    color: white;
+    font-size: 24px; /* 2em current size 2pt */
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+h2 {
+    color: blue;
+}
+
+li {
+    font-size: 20px;
+}
+
+
+div {
+    border-color: black; /* creates border */
+    border-width: 2px;
+    border-style: solid; /*type of border*/
+}
+
+
+#header {
+    height: 100px;
+}
+
+#really-like-it {
+    font-size: 50px;
+}
+
+.special-places {
+    color: green;
+}
