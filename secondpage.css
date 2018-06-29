@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Muli');
+
+
+body {
+    background-color: white;
+    font-family: 'Arimo', sans-serif;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+/*p {
+    color: white;
+    font-size: 24px; /* 2em current size 2pt */
+    text-align: center;
+    font-weight: 700; /*makes font bold */
+}
+*/
+
+h1 {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+h2 {
+    color: black;
+    font-size: 30px;
+}
+
+li {
+    font-size: 20px;
+}
+
+
+div {
+    border-color: black; /* creates border */
+    border-width: 2px;
+    border-style: solid; /*type of border*/
+}
+
+
+#header {
+    height: 100px;
+    color: 4983FF; /*rgb(0, 255, 0); picks colors*/
+    text-decoration: underline;  /* to add underline */
+    line-height: 2; /* height of line */
+    
+}
+
+#really-like-it {
+    font-size: 30px;
+}
+
+.special-places {
+    color: green;
+}
+
+/*
+p{
+    color: red !important;
+}
+
+#myParagraph {  blue is the most specific and will be most likely used
+    color: blue;
+}
+
+.paragraph {
+    color: orange;
+}
+
+body p {
+    color: pink;
+}
+
+p {   runs the grey code last so applies grey
+    color: grey;
+}
+*/

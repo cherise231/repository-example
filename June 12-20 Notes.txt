@@ -1,0 +1,790 @@
+
+
+June 20, 2018 Wednesday MEDA Notes
+
+W3 Validator: https://validator.w3.org/
+W3 CSS Validator: https://jigsaw.w3.org/css-validator/
+To look up questions https://developer.mozilla.org/en-US/
+To look up coding questions https://stackoverflow.com/questions/tagged/javascript
+
+
+//
+/* Learning Arrays
+console.log("something");
+
+var days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday", "SuperDay!"];
+
+console.log(days [0, 2]); //arrays used to hold similar items
+
+//days.length //length shows you how many items in array
+
+var length = days.length;
+
+//console.log(days.length);
+
+var counter = 0;
+
+while ( counter < length ) {
+    
+    //console.log([0]); // to call Monday
+    //console.log("Hello!");
+    console.log(days[counter]);
+    
+    counter = counter + 1;
+}
+
+
+var favoritefruits = ["Kiwi", "Apple", "Banana", "Dragonfruit", "Strawberry", "Blueberries"];
+
+console.log("My favorite fruits are:");
+
+counter2 = 0;
+
+while (counter < 10) {
+    
+}
+   //create counter    compare counter   do something w/ counter
+for (var counter3 = 0;  counter3 < 10;   counter3 + 1) {
+    
+    
+    
+} 
+
+
+//Learning about Objects instead of arrays
+var exampleArray = [1,2,3,4];
+
+var exampleObject = { "firstNumbert": 1, "secondNumber": 2, "thirdNumber": 3};
+
+console.log(exampleObject["secondNumber"]); //object can use index address
+
+console.log(exampleObject.thirdNumber); // how to access objects
+*/
+var user = {
+    
+    "username": "eagarcia", //use comma after object
+    "password": "123456",
+    "accountId": "0000001",
+    "isActive": true
+};
+/*
+//console.log("The User name is: " + user.username);
+console.log("The password is: " + user.password);
+
+var honda = {
+    "car-serial": 1234,
+    "owner": "Cherise cars"
+};
+
+var toyota = {
+    "car-serial": 1234,
+    "owner": "Cherise"
+};
+
+
+var cars = [honda, toyota];
+
+console.log("The serial is: " + cars[0]["car-serial"]);
+
+console.log("The owner is: " + cars[1]["owner"]);
+
+var cheriseInfo = {
+    
+    "favcolor": 
+}
+*/
+
+//Learning Functions
+//Some Functions we have used
+//Math.random();
+//Math.round();
+//console.log();
+
+//var myObject = {};
+
+myFirstFunction(); //runs the 3 console.log
+
+function myFirstFunction() {
+    
+    console.log("hi");
+    
+    console.log("my name is");
+    
+    console.log("Cherise");
+    
+} //no semicolon for functions!
+
+
+
+Javascript
+Terminal Commands
+HTML
+CSS
+Validation
+service apache2 start = to start apache2 server
+
+Learn about Arrays and Loops, Objects, Functions
+
+to add file to github repository
+
+git add .
+git commit -m "Adding files html css java."
+git push
+
+
+
+
+
+
+June 19, 2018 Tuesday MEDA Notes
+
+We are learning Html and CSS
+
+<p> tag
+<img> image tag uses a source or src
+<h1> header tag
+
+
+
+What is text editor - edits text; such as a notepad
+What is a code editor- edits code
+
+variable 
+
+datatypes: Boolean, Number
+
+Math.random(); enables math number generation
+
+
+June 18, 2018 Monday MEDA Notes
+
+Learning about GitHub today
+for reference http://rogerdudler.github.io/git-guide/
+
+for javascript quizzes
+https://quizlet.com/179383392/javascript-flash-cards/
+
+for brand identity
+https://www.columnfivemedia.com/how-to-create-a-brand-identity
+
+Github is used to save projects and organize files if you want to go back in time.
+The purpose of Git is to manage a project, or a set of files, as they change over time.Git stores this information in a data structure called a repository. A git repositorycontains, among other things, the following: A set of commit objects. A set of references to commit objects, called heads.
+
+Directory is a special file;
+
+nano workspace
+git version - to see what version is running
+
+terminal commands
+repository - track folder of git
+cherise231:~/workspace (master) $ git add example_file.txt
+(master) is the branch name- it is a timeline
+Changes to be committed: means changes saved in repository
+use git commit when you are ready to run somethijng
+
+1. git --help = gives commands and help
+2. git status = shows you where you are
+3. git init = creates a git repository in the same folder
+4. git add example.txt
+
+5. git commit = saves file ex. git commit -m "I added example_file.txt file."
+6. git log = command read the history of the repository
+7. git add . =  adding all your changes to where you are now show with period
+    git
+8. git log = show commit logs
+9. git checkout cdd64660cd717c6c1 = updated text for that commit; Switch branches or restore working tree files
+
+10. git checkout master = to restore all the files
+
+11.git clone http:// the respository
+
+create a new workspace hobby page; intro guide to 
+hobby; 
+get init workspace cloud 9
+make github repository
+link your github to cloud 9
+
+
+
+To save changes:
+
+git add  example_file.txt
+
+git commit -m "I saved this file."
+    use git commit when you are ready to run a file. Don't need to commit after every save.
+
+git push = to add files in
+
+To make new repository:
+
+1. Create new workspace in Cloud 9
+2. make new file ex. class-notes.html
+3. git init
+4. git status
+5. git add class-notes.html
+6. git commit -m "I added class-notes.html"
+6. git remote add origin https://github.com/cherise231/class-notes.git
+    go to github and paste in link
+7. git push 
+
+ex. 
+cherise231:~/workspace (master) $ git push
+Username for 'https://github.com': cherise231
+Password for 'https://cherise231@github.com': 
+
+
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+
+
+
+Javacript DOM
+Github
+
+
+
+
+
+June 15, 2018 Friday MEDA Notes
+
+Today we learned different types of error types and what they mean
+1. Error Reports
+2. Proper Syntax
+3. While Infinite Loop
+
+
+//Syntax Errors 
+//Types of Syntax Errors:
+
+// Undefined
+//Reference Errors
+//Uncaught reference error: myFirstVariable not defined
+//reference x not defined
+//Unexpected token: missing ; {} () missing semicolon; parentheses and brackets
+//Compiling and Runtime error
+// We also learned While Loop Counter Example
+
+/*The Error constructor creates an error object. Instances of Error objects are thrown when runtime errors occur. The Error object can also be used as a base object for user-defined exceptions. See below for standard built-in error types.
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors
+
+Uncaught ReferenceError: myirstVariable is not defined
+    at javascript.js:15
+This error means you mispelled the variable
+
+if (true = true) {
+    console.log("It is true");
+}
+
+Uncaught ReferenceError: Invalid left-hand side in assignment
+We missed the extra == sign
+
+//Homework practice with If then statements, variables
+*/
+
+/*var myFirstVariable = "Hi there!";
+
+console.log(myFirstVariable);
+
+if (true == true) {
+    console.log("It is true");
+}
+
+Parent
+    Child
+
+
+
+if (false); {  // logical error with semicolon ends                    sentence
+    
+    console.log("hello");
+}
+
+if (true);
+
+Edit>Code Formatting>Apply Code formatting
+
+
+if (true); {  
+    if (false)
+    console.log("hello");
+}
+
+if (true); {   //format for coding
+    
+    if (false) { // add in a tab for another if statement              and space
+        
+        if (!false) { // !exclamation boolean flips boolean !false = true
+            var something;
+            } // tab for if statement and 
+        
+        var bla = "";
+        var var2;
+        
+        if (false) {
+            var something2;
+        }
+    }
+}
+== is comparing
+= defining
+
+var something = false;
+
+if (!something) {  // true
+    // do something
+}
+
+infinite loop will continue running and crash
+Infinite Loop Crash
+Introduct new key word while
+
+
+var something = true;
+
+while (false) {  // while this is true
+    console.log("This ran once!");
+}
+While Infinite Loop
+
+while (true) {  // this is true and causes infinite loop; do not run this code! Will crash computer!
+    console.log("This ran once!");
+}
+
+A counter is called var counter
+need a comparison to stop the inifnite look
+> left side is bigger than right side
+< right side is bigger than right side
+>= greater than or equal to
+<= less than or equal to
+While Loop counter Example
+var counter = 0;
+
+while (counter < 100) {  // Whatever the counter add one and store back in counter
+    counter = counter +1; //0 +1 = 1 +1 =2; need a comparison to stop infinite loop
+    
+    console.log(counter);
+}
+Print a sentence 10 times
+
+
+var counter = 0;
+
+while (counter < 10) {  // Whatever the counter add one and store back in counter
+    counter = counter +1; //0 +1 = 1 +1 =2; need a comparison to stop infinite loop
+    
+    console.log("0 + 1 = ", counter);
+    console.log("1 + 1 = ", counter);
+}
+
+//Code to add each number plus + 1
+
+var counter = 0;
+var var1 = 0;
+var var2 = 1;
+
+
+while (counter < 10) {  // Whatever the counter add one and store back in counter
+    
+   
+    var sum = var1 + var2
+    
+    console.log(var1 + " + " + var2 + " = " +  sum);
+    
+    var1 = var1 + 1;
+
+    
+    counter = counter + 1; //0 +1 = 1 +1 =2; need a comparison to stop infinite loop
+}
+*/
+Syntax
+Javascript essential training Linkedin Learning 
+
+June 14, 2018 Thursday MEDA Notes
+
+Data Types:
+
+null, undefined
+
+Javascript values
+//0
+//false
+//NaN
+
+//  Different types of escape characters:
+//  \n= new line called escape characters
+//  \t= new tab
+
+//key words in javascript:
+//switch, else, break, continue, while
+
+
+
+var response = prompt('What is the password?');
+
+if ( response == 'Not your password' ) {    //If you type Not your password, then it console You did it
+    console.log('You did it!'); // if true
+    
+} else { 
+    console.log('Try Again!'); // if false
+    
+}
+
+// console.log('Try Again'); will run regardless of statements
+
+var response = prompt('What is the password?');
+
+if ( response == '123456' ) {
+    console.log('You did it!'); // if true
+    
+} else if ( response == 'password') {
+    console.log ('your password is weak');
+}
+
+else { 
+    console.log('Bye!'); // if false
+}
+
+//parseInt integer is a whole number
+//alert, prompt
+
+
+// Basic rain function with if else function
+/*
+Use if to specify a block of code to be executed, if a specified condition is true
+Use else to specify a block of code to be executed, if the same condition is false
+Use else if to specify a new condition to test, if the first condition is false
+
+var rain = prompt('Is it Raining?');
+
+if (rain == 'yes' && 'hello' == 'hello')  {     // == means comparing
+
+         // && means and  || means or
+    
+    var umbrella = prompt('Did you bring an umbrella?');  // = means assigning or storing
+    if (umbrella == 'yes') {
+        console.log('You stay dry!');
+    }
+    
+} else if (rain == 'no') {
+    
+    var hat = prompt('Did you bring hat?');
+    
+    if (hat == 'yes') {
+        
+        console.log('You will not get burned!');
+    }
+    
+} else {
+    console.log('Sorry we only know yes or no.');
+}
+*/
+// Cherise job function
+
+var job = prompt('Do you have a job?');
+
+if (job == 'yes' && 'hello' == 'hello')  {     // == means comparing
+
+         // && means and  || means or
+    
+    var school = prompt('Did you go to school?');  // = means assigning or storing
+    if (school == 'yes') {
+        console.log('You get money!');
+    }
+    
+} else if (job == 'no') {
+    
+    var read = prompt('Do you read?');
+    
+    if (read == 'yes') {
+        
+        console.log('You save money!');
+    } else if (job == 'no') {
+        
+        console.log('Don\'t worry be happy!');
+    }
+    
+    
+    
+} else {
+    console.log('Sorry you might not get a job!');
+}
+
+// rain function yes or no with else if function
+/*
+var rain = prompt('Is it Raining?');
+
+if (rain == 'yes' && 'hello' == 'hello')  {     // == means comparing
+
+         // && means and  || means or
+    
+    var umbrella = prompt('Did you bring an umbrella?');  // = means assigning or storing
+    if (umbrella == 'yes') {
+        console.log('You stay dry!');
+    } else if (umbrella == 'no') {
+        console.log('You will get sick!')
+    }
+    
+} else if (rain == 'no') {
+    
+    var hat = prompt('Did you bring hat?');
+    
+    if (hat == 'yes') {
+        
+        console.log('You will not get burned!');
+    } else if (hat == 'no') {
+        console.log('You need to get it together!')
+    }
+    
+} else {
+    console.log('Sorry we only know yes or no.');
+}
+*/
+// Calculator Function
+
+/*
+var firstNumber = prompt('What is the first number?'); //treats number as strings
+var secondNumber = prompt('What is the second number?');
+
+//firstNumber = parseInt( firstNumber ); //convert to number
+
+var convertedFirstNumber = parseInt( firstNumber ); // holds number
+var convertedSecondNumber = parseInt( secondNumber ); //holds number
+
+var sum = convertedFirstNumber + convertedSecondNumber;
+//console.log(sum);
+
+var difference = convertedFirstNumber - convertedSecondNumber;
+//console.log(difference);
+
+var product = convertedFirstNumber * convertedSecondNumber;
+//console.log(product);
+
+var quotient = convertedFirstNumber / convertedSecondNumber;
+//console.log(quotient);
+
+console.log(firstNumber);
+console.log(secondNumber);
+console.log(sum);
+console.log(difference);
+console.log(product);
+console.log(quotient);
+*/
+// Calculator Function for perimeter
+
+/*var firstNumber = prompt('What is the first number?'); //treats number as strings
+var secondNumber = prompt('What is the second number?');
+var thirdNumber = prompt('What is the third number?');
+var fourthNumber = prompt('What is the fourth number?');
+//firstNumber = parseInt( firstNumber ); //convert to number
+
+var convertedFirstNumber = parseInt( firstNumber ); // holds number
+var convertedSecondNumber = parseInt( secondNumber ); //holds number
+var convertedThirdNumber = parseInt( thirdNumber ); // holds number
+var convertedFourthNumber = parseInt( fourthNumber ); //holds number
+
+var sum = convertedFirstNumber + convertedSecondNumber + convertedThirdNumber + convertedFourthNumber;
+//console.log(sum);
+
+
+console.log('The first number is ' + firstNumber);
+console.log('The second number is ' + secondNumber);
+console.log('The third number is ' + thirdNumber);
+console.log('The fourth number is ' + fourthNumber);
+console.log('The perimeter is ' + sum);
+*/
+
+// Calculator Functions
+//Adding Subtracting mutltiplying and dividing numbers and variables
+/*
+var firstNumber = prompt('What is the first number?'); //treats number as strings
+var secondNumber = prompt('What is the second number?');
+
+//firstNumber = parseInt( firstNumber ); //converts strings to number and
+                                           puts strings in var container
+                                           parseInt will change the string
+                                           value into a number with actual 
+                                           value
+
+var convertedFirstNumber = parseInt( firstNumber ); // holds number;                                                        parseInt converts string                                                 to number
+var convertedSecondNumber = parseInt( secondNumber ); //holds number
+
+var sum = convertedFirstNumber + convertedSecondNumber; // sum will add the                                                     numbers together
+//console.log(sum);
+
+var difference = convertedFirstNumber - convertedSecondNumber;
+//console.log(difference);
+
+var product = convertedFirstNumber * convertedSecondNumber;
+//console.log(product);
+
+var quotient = convertedFirstNumber / convertedSecondNumber;
+//console.log(quotient);
+
+console.log('The first number is ' + firstNumber);
+console.log('The second number is ' + secondNumber);
+console.log('The sum of these two numbers is ' + sum);
+console.log('The difference of these two numbers is ' + difference);
+console.log('The product of these two numbers is ' + product);
+console.log('The quotient of these two numbers is ' + quotient);
+*/
+
+
+~~~~~~~~~~~~~~~
+June 13, 2018 Wednesday MEDA Notes
+
+Git is a terminal command
+http://jsbin.com/?html,output
+root web folder called html
+2 languages CSS & Javascript
+called angle brackets <html></html>
+
+prompt(); is a function of javascript;
+gray dot is not saved
+service apache2 start -opens web server
+click on share button; then application button
+to refresh cache: inspect > network>disable cache checked
+then empty cache and hard reload
+cache 
+prompt
+var
+
+//alert('It is raining!');
+//prompt('Is it raining?');
+
+var response = prompt('Is it raining?');
+
+console.log(response);
+
+console.log('Hello World');
+
+console.log('June 13, 2018');
+
+console.log( Date.now() );
+
+var stringVar = 'This is a string';
+
+console.log(stringVar);
+
+var something = Math.random();
+
+var somethingElse = true;
+
+var hello = 'How are you!';
+
+console.log(something);
+console.log(somethingElse);
+console.log(hello);
+
+//alert makes a popup screen
+
+var response = prompt('What would you like?'); //function
+
+
+if ( response == 'Pizza') {
+    console.log('Here is your pizza!');
+}
+
+
+~~~~~~~~~~~~~
+http://www.sfsdatascience.com/ 
+vytality.co
+
+for Mission Techies
+
+Tuesday, June 12, 2018 MEDA Notes
+
+Commands for terminal
+https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners
+
+1. ls- List files for current directory
+
+2. pwd- print working directory shows current location
+
+3. cd- change directory; use cd examplefolder means change directory go to example folder
+
+4. tilda ~= home; ~ is the tilda; command cd ~ to go home
+
+5. .= itself; the folder you are in
+6. .. = parent; command cd ..
+7. ctrl+c = kill command; to go back to directory
+8. mkdir folder2 = create folder; if you use two names wrap in quotes
+
+9. ls -l = shows all files in current folder
+10. ll = organize folder in a list folder abbreviation for ls -l
+11. clear = to clear command line
+12. touch filename = whatever you touch to make a file
+13. cd ~  = to go home; change directory and go to workspace
+14. cd workspace = to go back to workspace
+15. top = how much ram computer is using
+16. nano index.html = to edit file
+17. control o then enter to save nano file
+18. control x to exit ^x = control + x to exit
+19. pwd - 
+20. touch - same as mkdir ex. touch example_file.txt
+21. cd workspace
+22. cd .. = go to parent folder
+
+
+$ cd home/unbuntu/example
+carrot means control
+code editor helps you write code
+
+mdn web docs use instead of w3 schools
+https://developer.mozilla.org/en-US/
+
+http://www.sfsdatascience.com/ for tech help
+
+
+
+
+/home/ubuntu/workspace/
+first slash
+~ = home
+
+Free programs to check out:
+https://www.missionbit.com/programs/ apply after program meda
+https://baycat.org/ for video production
+http://www.codetenderloin.com/ code tenderloin- basics of coding
+https://www.ccsf.edu/ ccsf-take advance courses for coding
+https://bavc.org programs for design tools UX Design Primer; Ready to Hire
+tech sf apprenticeship program; email verse to ask about programs I am ready for
+jvs for job search skills
+ready
